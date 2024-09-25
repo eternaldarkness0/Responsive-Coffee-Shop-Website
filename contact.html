@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav>
+        <div class="navigation">
+
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="logo">
+            </a>
+
+            <div class="menu">
+
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+
+                <a href="menu.html">MENU</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#hero-page">REWARDS</a>
+                <button class="btn-2 btn-link" onclick="window.location.href='contact.html'">
+                    Contact Us
+                </button>
+
+            </div>
+
+        </div>
+
+        <button class="btn-2 btn-nav" onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+
+    </nav>
+
+    <section class="contact">
+
+        <div class="contact-headline">
+            <h1>Get in Touch with <b>BrewBuzz</b></h1>
+            <div class="contact-info">
+                <p>+1 234 412 514</p>
+                <p>info@brewbuzzcafe.com</p>
+                <p>123 Main Street, Florida, USA</p>
+            </div>
+
+        <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-form">
+
+            <input type="hidden" name="access_key" value="cbccf4d7-9b13-4321-a6cd-43081285d540">
+
+            <!-- Form Inputs -->
+
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="number" name="number" placeholder="Phone Number" required>
+            <input type="text" name="location" placeholder="Location" required>
+            <textarea name="Order" placeholder="Order" required></textarea>
+            <button class="btn-2 btn-contact btn-product">Submit</button>
+        </form>
+        </div>
+
+        <div class="contact-images">
+            <img class="contact-img-1" src="img/contact-img-1.png" alt="img">
+            <img src="img/contact-img-2.png" alt="img">
+        </div>
+
+    </section>
+
+    <!-- Callout Section -->
+
+    <div class="callout">
+        <div>
+            <h4>Do You Know We Have A Daily Delivery Service?</h4>
+            <i class="fa-solid fa-truck" style="color: white;"></i>
+        </div>
+        <h1>Elevating Your Mornings, One Sip at a Time.</h1>
+        <button class="btn-2 btn-callout" onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <a href="#">
+            <h1>BrewBuzz</h1>
+        </a>
+
+        <div class="socials">
+
+            <a href="facebook.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </a>
+
+            <a href="twitter.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </a>
+
+            <a href="linkedin.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </a>
+
+            <a href="instagram.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </a>
+
+        </div>
+
+
+    </footer>
+
+</body>
+</html>

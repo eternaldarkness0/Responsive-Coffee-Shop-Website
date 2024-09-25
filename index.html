@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav>
+        <div class="navigation">
+
+            <a href="index.html" class="brand">
+                <img src="img/logo.png" alt="logo">
+            </a>
+
+            <div class="menu">
+
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+
+                <a href="menu.html">MENU</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="index.html#hero-page">REWARDS</a>
+                <button class="btn-2 btn-link" onclick="window.location.href='contact.html'">
+                    Contact Us
+                </button>
+
+            </div>
+
+        </div>
+
+        <button class="btn-2 btn-nav" onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+
+    </nav>
+
+    <!-- Hero Page Section -->
+
+    <section class="hero-page" id="hero-page">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="banner banner-1">
+                        <div>
+
+                                <h1>BREWBAZZ</h1>
+                                <h2>SALE EVENT</h2>
+                                <p>
+                                    Discover exceptional coffee experiences with BrewBuzz today with 10% off!
+                                </p>
+                                <button class="btn-2 btn-banner-1" onclick="window.location.href='menu.html'">
+                                    Order Now
+                                </button>
+
+                        </div>
+                            <img class="img-banner-1" src="img/banner_1.png" alt="banner">
+                    </div>
+                </div>
+
+                <!-- swiper #2 -->
+
+                <div class="swiper-slide">
+                    <div class="banner banner-2">
+                            <img class="img-banner-2" src="img/banner_2.png" alt="banner">
+                        <div>
+                            <div class="banner-wrapper-2">
+                            <h1>Strawberry Smoothie</h1>
+                            <p>
+                                Try our juicy strawberries blended to perfection with creamy yogurt and a hint of honey, for a hot day.
+                            </p>
+                            <button class="btn-2 btn-banner-2" onclick="window.location.href='menu.html'">
+                                Order Now
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- swiper #3 -->
+
+                <div class="swiper-slide">
+                    <div class="banner banner-3">
+                        <img class="img-banner-3" src="img/banner_3.png" alt="banner">
+                        <div>
+                            <div class="banner-wrapper-3">
+                            <h1>Hot Chocolate</h1>
+                            <p>
+                                Try our new velvety hot chocolate, and let the warmth seep into your soul.
+                            </p>
+                            <button class="btn-2 btn-banner-3" onclick="window.location.href='menu.html'">
+                                Order Now
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Paginations -->
+
+            <div class="swiper-pagination"></div>
+
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+    </section>
+
+    <!-- Category Section -->
+
+
+    <div class="category">
+
+        <a href="menu.html#hd">
+            <div class="category-item hot-drinks">
+                <h4>Hot Drinks</h4>
+            </div>
+        </a>
+
+        <a href="menu.html#cd">
+            <div class="category-item cold-drinks">
+                <h4>Cold Drinks</h4>
+            </div>
+        </a>
+
+        <a href="menu.html#fd">
+            <div class="category-item foods">
+                <h4>Foods</h4>
+            </div>
+        </a>
+
+        <a href="menu.html#md">
+            <div class="category-item merchandise">
+                <h4>Merchandise</h4>
+            </div>
+        </a>
+
+    </div>
+
+
+    <!-- About section -->
+
+    <section class="about" id="about">
+
+        <h1>About <b>BrewBuzz</b></h1>
+
+        <div class="about-container">
+            <div class="about-headline">
+                <p>
+                    At <b>BrewBuzz</b>, we're passionate about more than just coffee;
+                    we're obsessed with crafting moments of pure joy and connection
+                    through every cup.
+                </p>
+
+                <p>
+                    <b>BrewBuzz</b> is more than just a purveyor of exceptional coffee;
+                    it's a destination where friendships flourish, ideas percolate, and
+                    memories are made.
+                </p>
+
+                <button class="btn-2 btn-about" onclick="window.location.href='contact.html'">
+                    Contact Us
+                </button>
+            </div>
+
+            <div class="about-img">
+                <img src="img/about-1.png" alt="img">
+                <img src="img/about-2.png" alt="img">
+                <img src="img/about-3.png" alt="img">
+            </div>
+        </div>
+
+        <hr class="divider" />
+    </section>
+
+    <!-- Testimonials section -->
+
+
+
+    <div class="testimonials">
+        <h1>What People Says About Us</h1>
+    </div>
+
+    <div class="testimony-container">
+        <div class="testimony">
+            <p>
+                <b>BrewBuzz</b> has become my go-to spot for the best coffee in
+                town; their blends are simply unbeatable!
+            </p>
+            <p>Sarah T.</p>
+        </div>
+
+        <div class="testimony">
+            <p>
+                The atmosphere at <b>BrewBuzz</b> is so inviting; it's like stepping
+                into a cozy coffee haven every time I visit.
+            </p>
+            <p>Alex M.</p>
+        </div>
+
+        <div class="testimony">
+            <p>
+                I can't get enough of <b>BrewBuzz</b>'s expertly crafted
+                beverages; each sip feels like a little moment of bliss.
+            </p>
+            <p>Emily W.</p>
+        </div>
+    </div>
+
+
+    <!-- Callout Section -->
+
+    <div class="callout">
+        <div>
+            <h4>Do You Know We Have A Daily Delivery Service?</h4>
+            <i class="fa-solid fa-truck" style="color: white;"></i>
+        </div>
+        <h1>Elevating Your Mornings, One Sip at a Time.</h1>
+        <button class="btn-2 btn-callout" onclick="window.location.href='contact.html'">
+            Contact Us
+        </button>
+    </div>
+
+
+    <!-- Footer -->
+
+    <footer>
+        <a href="#">
+            <h1>BrewBuzz</h1>
+        </a>
+
+        <div class="socials">
+
+            <a href="facebook.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </a>
+
+            <a href="twitter.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </a>
+
+            <a href="linkedin.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </a>
+
+            <a href="instagram.com">
+                <div class="social-box">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </a>
+
+        </div>
+
+
+    </footer>
+
+</body>
+</html>
